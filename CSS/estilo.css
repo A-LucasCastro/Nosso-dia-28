@@ -1,0 +1,54 @@
+/* ***** Formatação padrão ***** */
+body, html {
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    margin: 0px;
+    height: 100%;
+}
+
+.conteudo {
+    background: #fff;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+/* ***** Formatação dos fundos ***** */
+
+.caixa1, .caixa2, .caixa3 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(../Imagens/praia.jpg);
+}
+
+.caixa2 {
+    background-image: url(../Imagens/ponte.jpg);
+}
+
+.caixa3 {
+    background-image: url(../Imagens/cidade.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
